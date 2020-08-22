@@ -43,7 +43,7 @@ body {
 }
 
 body {
-    background-image: url(../StaticLayout/StaticLayoutAssets/gradient-violet-bg.jpg);
+    background-image: url(./StaticLayoutAssets/gradient-violet-bg.jpg);
     background-size: cover;
 }
 
