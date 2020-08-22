@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#openkast {
+    border-width: thin;
+    border-style: solid;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 10pt;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+body {
+    background-image: url(../StaticLayout/StaticLayoutAssets/gradient-violet-bg.jpg);
+    background-size: cover;
+}
+
+.text1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 10;
+}
+
+.laptop {
+    text-align: center;
+}
+
+#openkast2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 3px;
+    background: #FE9000;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    padding: 10px;
+    width: 200px;
+    letter-spacing: 1.5px;
+}
